@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="/shikimori.jpg" alt="logo" width="140"  height="auto" />
+  <img src="/images/shikimori.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>First Capstone Project</b></h3>
