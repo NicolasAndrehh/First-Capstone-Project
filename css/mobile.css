@@ -40,7 +40,7 @@
   }
 
   .mobile-background {
-    background-image: url(images/landpage-Background-Mobile.jpg);
+    background-image: url(../images/landpage-Background-Mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ece9e9;
@@ -281,11 +281,11 @@
   }
 
   #past-section .img-1 {
-    background-image: url(images/olympia-2021.jpg);
+    background-image: url(../images/olympia-2021.jpg);
   }
 
   #past-section .img-2 {
-    background-image: url(images/olympia-2020.jpg);
+    background-image: url(../images/olympia-2020.jpg);
   }
 
   .olympia-card h3 {
