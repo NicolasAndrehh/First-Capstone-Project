@@ -40,7 +40,7 @@
   }
 
   .mobile-background {
-    background-image: url(/images/landpage-Background-Mobile.jpg);
+    background-image: url(images/landpage-Background-Mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ece9e9;
@@ -67,13 +67,15 @@
     text-align: center;
   }
 
-  #landpage h1, #landpage-about h1 {
+  #landpage h1,
+  #landpage-about h1 {
     font-size: 2.25rem;
     text-transform: uppercase;
     font-weight: 900;
   }
 
-  #landpage span, #landpage-about span {
+  #landpage span,
+  #landpage-about span {
     font-size: 1.25rem;
   }
 
@@ -92,10 +94,11 @@
     font-size: 0.8rem;
     line-height: 1.25rem;
     text-align: center;
-    margin: 1rem 0rem;
+    margin: 1rem 0;
   }
 
-  #landpage h2, #landpage-about h2 {
+  #landpage h2,
+  #landpage-about h2 {
     color: var(--dark-color);
     font-weight: 800;
   }
@@ -108,7 +111,15 @@
     gap: 1rem;
   }
 
-  #categories-section hr, #athletes-section > hr, #logo-section hr, #past-section hr, #sponsors-section hr {
+  .athlete-info hr {
+    width: 2rem;
+  }
+
+  #categories-section hr,
+  #athletes-section > hr,
+  #logo-section hr,
+  #past-section hr,
+  #sponsors-section hr {
     width: 3rem;
     border: 1px solid var(--orange-color);
   }
@@ -162,7 +173,7 @@
 
   #athletes-section .athletes-container {
     display: grid;
-    margin: 2rem 0rem;
+    margin: 2rem 0;
     gap: 3rem;
   }
 
@@ -192,10 +203,6 @@
     font-weight: 600;
     font-size: 1rem;
     font-style: italic;
-  }
-
-  .athlete-info hr {
-    width: 2rem;
   }
 
   .athlete-info p {
@@ -247,7 +254,14 @@
     gap: 1rem;
   }
 
-  #past-section h2, #past-section p, #logo-section h2, #logo-section p {
+  .olympia-card p {
+    font-size: 1rem;
+  }
+
+  #past-section h2,
+  #past-section p,
+  #logo-section h2,
+  #logo-section p {
     text-align: center;
   }
 
@@ -267,19 +281,15 @@
   }
 
   #past-section .img-1 {
-    background-image: url(/images/olympia-2021.jpg);
+    background-image: url(images/olympia-2021.jpg);
   }
 
   #past-section .img-2 {
-    background-image: url(/images/olympia-2020.jpg);
+    background-image: url(images/olympia-2020.jpg);
   }
 
   .olympia-card h3 {
     font-size: 2.5rem;
-  }
-
-  .olympia-card p {
-    font-size: 1rem;
   }
 
   @media only screen and (max-width: 450px) {
