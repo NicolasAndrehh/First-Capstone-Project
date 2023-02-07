@@ -25,19 +25,23 @@
   display: none;
 }
 
+.stop-scroll {
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 767px) {
   .mobile-hide {
     display: none;
   }
 
   /* Navbar styling and background of the landpage */
-  #navbar {
-    padding: 0.5rem 0.5rem 0.5rem 1rem;
-  }
-
   #hamburguer-button {
     font-size: 1.5rem;
-    color: var(--dark-color);
+    color: var(--gray-color);
+    width: 100vw;
+    position: fixed;
+    background: var(--dark-color);
+    padding: 1rem 1.25rem;
   }
 
   .mobile-background {
@@ -56,7 +60,7 @@
   #landpage {
     display: flex;
     flex-direction: column;
-    padding: 1rem 1rem 4rem 1rem;
+    padding: 6rem 1rem 4rem 1rem;
     gap: 1rem;
   }
 
@@ -64,7 +68,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem 1rem 4rem 1rem;
+    padding: 6rem 1rem 4rem 1rem;
     gap: 0.5rem;
     text-align: center;
   }
@@ -111,7 +115,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 5rem 1rem;
     gap: 1rem;
   }
 
@@ -179,7 +183,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 5rem 1rem;
     gap: 1rem;
   }
 
@@ -190,7 +194,6 @@
   }
 
   #athletes-section .athlete-card {
-    display: flex;
     align-items: center;
     gap: 1rem;
   }
@@ -236,6 +239,14 @@
   #athletes-section .button:hover {
     background-color: var(--dark-color);
     color: var(--orange-color);
+  }
+
+  #athletes-section .show-first-four > :nth-child(-n+4) {
+    display: flex !important;
+  }
+
+  .show-all {
+    display: flex;
   }
 
   /* About page logo section styling */
@@ -353,5 +364,58 @@
 
   #footer img {
     width: 10rem;
+  }
+
+  /* Navbar mobile menu */
+  #navbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--dark-color);
+    padding: 4rem 0rem;
+    transform: translateX(-100%);
+    transition: all 0.1s ease-in-out;
+  }
+
+  #close-menu {
+    font-size: 1.5rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 1rem 0rem 1rem 1.4rem;
+  }
+
+  #navbar .menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  
+  #navbar .menu-links li {
+    display: flex;
+    width: 100vw;
+    text-align: center;
+  }
+
+  #navbar .menu-links li a {
+    width: 100vw;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-links li a:hover {
+    background-color: #ec5242;
+  }
+
+  .show-menu {
+    transform: translateX(0%) !important;
   }
 }

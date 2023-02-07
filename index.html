@@ -15,10 +15,11 @@
 <body>
     <div class="wrap">
         <div class="mobile-background">
+            <a href="#" id="hamburguer-button" class="desktop-hide"><i class="fa-sharp fa-solid fa-bars"></i></a>
             <nav id="navbar">
-                <a href="#" id="hamburguer-button" class="desktop-hide"><i class="fa-sharp fa-solid fa-bars"></i></a>
+                <a href="#" id="close-menu" class="desktop-hide"><i class="fa-solid fa-xmark"></i></a>
                 <img src="images/mrOlympiaLogo.png" alt="" class="mobile-hide">
-                <ul class="mobile-hide">
+                <ul class="menu-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#categories-section">Categories</a></li>
@@ -71,46 +72,11 @@
         <section id="athletes-section" class="section-layout">
             <h2>Our Athletes</h2>
             <hr>
-            <div class="athletes-container">
-                <div class="athlete-card">
-                    <img src="images/chris-bumstead-img.jpg" alt="Chris Bumstead image">
-                    <div class="athlete-info">
-                        <h3>Chris Bumstead</h3>
-                        <p class="athlete-category">Classic physique competitor</p>
-                        <hr>
-                        <p>Chris Bumstead is the reigning Mr. Olympia Classic Physique winner, having won the competition in 2019, 2020, 2021 and 2022.</p>
-                    </div>
-                </div>
-                <div class="athlete-card">
-                    <img src="images/ramon-dino-img.jfif" alt="Ramon Dino image">
-                    <div class="athlete-info">
-                        <h3>Ramon Dino</h3>
-                        <p class="athlete-category">Classic physique competitor</p>
-                        <hr>
-                        <p>Ramon Rocha is a Brazilian professional bodybuilder. Currently, he is the runner-up of the Mr. Olympia, in the Classic Physique category, and the Arnold Classic Ohio.</p>
-                    </div>
-                </div>
-                <div class="athlete-card">
-                    <img src="images/ronnie-coleman-img.jfif" alt="Ronnie Coleman image">
-                    <div class="athlete-info">
-                        <h3>Ronnie Coleman</h3>
-                        <p class="athlete-category">Mr Olympia Open competitor</p>
-                        <hr>
-                        <p>Ronnie is the winner of the Mr. Olympia title for eight consecutive years, he is widely regarded as either 'the greatest' or one of the two greatest bodybuilders of all time.</p>
-                    </div>
-                </div>
-                <div class="athlete-card">
-                    <img src="images/phil-heath-img.jpg" alt="Phil Heath image">
-                    <div class="athlete-info">
-                        <h3>Phil Heath</h3>
-                        <p class="athlete-category">Mr Olympia Open competitor</p>
-                        <hr>
-                        <p>Phil is a seven-time Mr. Olympia winner, having won the competition every year from 2011 to 2017. His latest victory tied him with Arnold Schwarzenegger</p>
-                    </div>
-                </div>
+            <div class="athletes-container show-first-four">
+                
             </div>
 
-            <a href="#" class="button">More <i class="fa-solid fa-angle-down"></i></a>
+            <a href="#" id="show-more-button" class="button">More <i class="fa-solid fa-angle-down"></i></a>
         </section>
         <section id="sponsors-section" class="section-layout">
             <h2>Sponsors</h2>
@@ -129,6 +95,7 @@
             <small>2022 Olympia Productions, LLC All Rights Reserved</small>
         </footer>
     </div>
+    <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/ef689762e3.js" crossorigin="anonymous"></script>
 </body>
 </html>

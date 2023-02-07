@@ -74,6 +74,12 @@
     text-transform: capitalize;
     border: 5px solid var(--orange-color);
     padding: 0.75rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #navbar .tickets-link:hover {
+    color: #fff;
+    background-color: var(--orange-color);
   }
 
   .mobile-background {
@@ -197,7 +203,6 @@
   }
 
   #athletes-section .athlete-card {
-    display: flex;
     align-items: center;
     gap: 1rem;
   }
@@ -234,6 +239,15 @@
   #athletes-section .button:hover {
     background-color: var(--dark-color);
     color: var(--orange-color);
+    border: 2px solid var(--orange-color);
+  }
+
+  #athletes-section .show-first-four > :nth-child(-n+4) {
+    display: flex !important;
+  }
+
+  .show-all {
+    display: flex;
   }
 
   /* Sponsors section styling */

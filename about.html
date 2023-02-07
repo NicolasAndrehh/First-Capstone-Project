@@ -15,15 +15,16 @@
 <body>
     <div class="wrap">
         <div class="mobile-background-about">
+            <a href="#" id="hamburguer-button" class="desktop-hide"><i class="fa-sharp fa-solid fa-bars"></i></a>
             <nav id="navbar">
-                <a href="#" id="hamburguer-button" class="desktop-hide"><i class="fa-sharp fa-solid fa-bars"></i></a>
+                <a href="#" id="close-menu" class="desktop-hide"><i class="fa-solid fa-xmark"></i></a>
                 <a href="index.html"><img src="images/mrOlympiaLogo.png" alt="Mr Olympia Logo" class="mobile-hide"></a>
-                <ul class="mobile-hide">
+                <ul class="menu-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#">Categories</a></li>
-                    <li><a href="#">Athletes</a></li>
-                    <li><a href="#">Sponsors</a></li>
+                    <li><a href="#categories-section">Categories</a></li>
+                    <li><a href="#athletes-section">Athletes</a></li>
+                    <li><a href="#sponsors-section">Sponsors</a></li>
                 </ul>
                 <a href="#" class="mobile-hide tickets-link">Buy tickets</a>
             </nav>
@@ -56,7 +57,7 @@
                 </div>
             </div>
         </section>
-        <section id="sponsors-section">
+        <section id="sponsors-section" class="section-layout">
             <h2>Sponsors</h2>
             <hr>
             <ul class="brands">
@@ -73,6 +74,7 @@
             <small>2022 Olympia Productions, LLC All Rights Reserved</small>
         </footer>
     </div>
+    <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/ef689762e3.js" crossorigin="anonymous"></script>
 </body>
 </html>
