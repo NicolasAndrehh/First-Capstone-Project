@@ -22,22 +22,33 @@
     border: 1px solid var(--orange-color);
   }
 
-  /* Navbar styling and background of the landpage*/
+  /* Navbar styling and background of the landpage */
   #navbar {
     position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 4rem;
+    padding: 0 4rem;
     background-color: #fff;
     border-bottom: 1px solid var(--gray-color);
     gap: 2rem;
   }
+
   @media only screen and (max-width: 890px) {
     #navbar {
-      padding: 0rem 1rem;
+      padding: 0 1rem;
     }
+  }
+
+  .category-card img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .athlete-card img {
+    width: 10rem;
+    height: 10rem;
   }
 
   #navbar img {
@@ -82,7 +93,8 @@
     align-items: flex-start;
   }
 
-  #landpage, #landpage-about {
+  #landpage,
+  #landpage-about {
     padding: 12rem 4rem 6rem 4rem;
   }
 
@@ -90,7 +102,8 @@
     font-size: 2rem;
   }
 
-  #landpage h1, #landpage-about h1 {
+  #landpage h1,
+  #landpage-about h1 {
     font-size: 4rem;
     font-weight: 900;
     text-transform: uppercase;
@@ -111,6 +124,17 @@
     font-weight: 800;
   }
 
+  .category-card p {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.25rem;
+    letter-spacing: 0.25px;
+  }
+
+  .athlete-info p {
+    font-size: 0.9rem;
+  }
+
   #landpage p {
     font-size: 1.25rem;
   }
@@ -121,7 +145,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.25rem;
-    margin: 2rem 0rem;
+    margin: 2rem 0;
   }
 
   #categories-section .category-card {
@@ -134,22 +158,10 @@
     gap: 0.75rem;
   }
 
-  .category-card img {
-    width: 5rem;
-    height: 5rem;
-  }
-
   .category-card h3 {
     color: var(--orange-color);
     font-size: 1.25rem;
     text-align: center;
-  }
-
-  .category-card p {
-    font-size: 0.8rem;
-    text-align: center;
-    line-height: 1.25rem;
-    letter-spacing: 0.25px;
   }
 
   /* Button styling */
@@ -190,11 +202,6 @@
     gap: 1rem;
   }
 
-  .athlete-card img {
-    width: 10rem;
-    height: 10rem;
-  }
-
   .athlete-card .athlete-info {
     display: flex;
     flex-direction: column;
@@ -210,10 +217,6 @@
     font-weight: 600;
     font-size: 1rem;
     font-style: italic;
-  }
-
-  .athlete-info p {
-    font-size: 0.9rem;
   }
 
   #athletes-section .button {
