@@ -374,7 +374,7 @@
     left: 0;
     right: 0;
     background-color: var(--dark-color);
-    padding: 4rem 0rem;
+    padding: 4rem 0;
     transform: translateX(-100%);
     transition: all 0.1s ease-in-out;
   }
@@ -386,7 +386,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    padding: 1rem 0rem 1rem 1.4rem;
+    padding: 1rem 0 1rem 1.4rem;
   }
 
   #navbar .menu-links {
@@ -395,7 +395,7 @@
     align-items: center;
     width: 100vw;
   }
-  
+
   #navbar .menu-links li {
     display: flex;
     width: 100vw;
@@ -411,7 +411,7 @@
     transition: all 0.3s ease-in-out;
   }
 
-  .menu-links li a:hover {
+  #navbar .menu-links li a:hover {
     background-color: #ec5242;
   }
 
