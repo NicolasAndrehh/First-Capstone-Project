@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/desktop.css">
     <title>First Capstone Project</title>
 </head>
 <body>
@@ -25,7 +26,7 @@
                 </ul>
                 <a href="" class="mobile-hide">Buy tickets</a>
             </nav>
-            <main id="landpage">
+            <main id="landpage" class="section-layout">
                 <span class="color-orange">"Hello! Welcome to the Olympia"</span>
                 <h1 class="color-orange">Mr Olympia 2022</h1>
                 <p class="description-box">Mr. Olympia is the top bodybuilding competition, determining the world's best professional bodybuilder. It has been held annually since 1965 and features top competitors vying for the title of the best of the world and prize money.</p>
@@ -33,38 +34,40 @@
                 <p>@ Planet Hollywood Resort and Casino - Las Vegas</p>
             </main>
         </div>
-        <section id="categories-section">
+        <section id="categories-section" class="section-layout">
             <h2>Categories</h2>
             <hr>
-            <div class="category-card">
-                <img src="images/open-logo.png" alt="Open category image">
-                <h3>Mr. Olympia Open</h3>
-                <p>The main event and the highest level of competition for male bodybuilders without weigh limit</p>
-            </div>
-            <div class="category-card">
-                <img src="images/212-logo.png" alt="212 category image">
-                <h3>212 Olympia</h3>
-                <p>A division for male bodybuilders weighing 212 pounds or less</p>
-            </div>
-            <div class="category-card">
-                <img src="images/classic-logo.png" alt="Classic category image">
-                <h3>Classic Physique</h3>
-                <p>A division for bodybuilders who focus on the aesthetic, classic look of bodybuilding</p>
-            </div>
-            <div class="category-card">
-                <img src="images/wellness-logo.png" alt="Wellness category image">
-                <h3>Wellness (Womens)</h3>
-                <p>A division for womens that focus on the lower body size and proportional to the upper body</p>
-            </div>
-            <div class="category-card">
-                <img src="images/mens-logo.png" alt="Men's category image">
-                <h3>Men's physique</h3>
-                <p>Designed to showcase a more athletic, toned physique that emphasizes symmetry, muscle definition, and stage presence</p>
+            <div class="categories-container">
+                <div class="category-card">
+                    <img src="images/open-logo.png" alt="Open category image">
+                    <h3>Mr. Olympia Open</h3>
+                    <p>The main event and the highest level of competition for male bodybuilders without weigh limit</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/212-logo.png" alt="212 category image">
+                    <h3>212 Olympia</h3>
+                    <p>A division for male bodybuilders weighing 212 pounds or less</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/classic-logo.png" alt="Classic category image">
+                    <h3>Classic Physique</h3>
+                    <p>A division for bodybuilders who focus on the aesthetic, classic look of bodybuilding</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/wellness-logo.png" alt="Wellness category image">
+                    <h3>Wellness</h3>
+                    <p>A division for womens that focus on the lower body size and proportional to the upper body</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/mens-logo.png" alt="Men's category image">
+                    <h3>Men's physique</h3>
+                    <p>Designed to showcase a more athletic, toned physique that emphasizes symmetry, muscle definition, and stage presence</p>
+                </div>
             </div>
             
             <a href="#" class="button">Buy tickets</a>
         </section>
-        <section id="athletes-section">
+        <section id="athletes-section" class="section-layout">
             <h2>Our Athletes</h2>
             <hr>
             <div class="athletes-container">
@@ -99,7 +102,7 @@
 
             <a href="#" class="button">More <i class="fa-solid fa-angle-down"></i></a>
         </section>
-        <section id="sponsors-section">
+        <section id="sponsors-section" class="section-layout">
             <h2>Sponsors</h2>
             <hr>
             <ul class="brands">

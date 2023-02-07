@@ -30,6 +30,7 @@
     display: none;
   }
 
+  /* Navbar styling and background of the landpage*/
   #navbar {
     padding: 0.5rem 0.5rem 0.5rem 1rem;
   }
@@ -51,6 +52,7 @@
     background-color: #ece9e9;
   }
 
+  /* Landpage and about page landpage styling */
   #landpage {
     display: flex;
     flex-direction: column;
@@ -103,6 +105,8 @@
     font-weight: 800;
   }
 
+
+  /* Categories section styling */
   #categories-section {
     display: flex;
     flex-direction: column;
@@ -122,6 +126,12 @@
   #sponsors-section hr {
     width: 3rem;
     border: 1px solid var(--orange-color);
+  }
+
+  #categories-section .categories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 
   #categories-section .category-card {
@@ -147,6 +157,7 @@
     font-size: 0.8rem;
   }
 
+  /* Button styling */
   .button {
     background-color: var(--orange-color);
     color: #fff;
@@ -163,6 +174,7 @@
     color: var(--orange-color);
   }
 
+  /* Athletes section styling */
   #athletes-section {
     display: flex;
     flex-direction: column;
@@ -226,6 +238,7 @@
     color: var(--orange-color);
   }
 
+  /* About page logo section styling */
   #logo-section {
     display: flex;
     flex-direction: column;
@@ -246,6 +259,7 @@
     margin-top: 3rem;
   }
 
+  /* About page past section styling */
   #past-section {
     display: flex;
     flex-direction: column;
@@ -299,6 +313,7 @@
     }
   }
 
+  /* About page sponsors section styling */
   #sponsors-section {
     display: flex;
     flex-direction: column;
@@ -328,6 +343,7 @@
     mix-blend-mode: luminosity;
   }
 
+  /* Footer styling */
   #footer {
     display: flex;
     align-items: center;

@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/desktop.css">
         <title>About Mr Olympia</title>
     </head>
 <body>
@@ -15,7 +16,7 @@
         <div class="mobile-background-about">
             <nav id="navbar">
                 <a href="#" id="hamburguer-button" class="desktop-hide"><i class="fa-sharp fa-solid fa-bars"></i></a>
-                <img src="images/mrOlympiaLogo.png" alt="" class="mobile-hide">
+                <a href="index.html"><img src="images/mrOlympiaLogo.png" alt="Mr Olympia Logo" class="mobile-hide"></a>
                 <ul class="mobile-hide">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -23,9 +24,9 @@
                     <li><a href="#">Athletes</a></li>
                     <li><a href="#">Sponsors</a></li>
                 </ul>
-                <a href="" class="mobile-hide">Buy tickets</a>
+                <a href="#" class="mobile-hide tickets-link">Buy tickets</a>
             </nav>
-            <main id="landpage-about">
+            <main id="landpage-about" class="section-layout">
                 <span class="color-orange">"Hello! Welcome to the Olympia"</span>
                 <h1 class="color-orange">Mr Olympia 2022</h1>
                 <p class="description-box">Mr. Olympia is the title awarded to the winner of the professional men's bodybuilding contest at Joe Weider's Olympia Fitness & Performance Weekend—an international bodybuilding competition that is held annually and is sanctioned by the IFBB Professional League.</p>
@@ -33,23 +34,25 @@
                 <p><u><strong>contact@mrolympia.com</strong></u></p>
             </main>
         </div>
-        <section id="logo-section">
+        <section id="logo-section" class="section-layout">
             <h2>Mr Olympia Logo</h2>
             <hr>
             <p>The logo of Mr Olympia it's the following one</p>
             <img src="images/mrOlympiaLogo.png" alt="Mr Olympia logo">
         </section>
-        <section id="past-section">
+        <section id="past-section" class="section-layout">
             <h2>See past Mr Olympia competitions</h2>
             <hr>
             <p>Take a look to the last two Mr Olympia</p>
-            <div class="olympia-card img-1">
-                <h3>2021</h3>
-                <p>Mr Olympia 2021 in Orlando, Florida</p>
-            </div>
-            <div class="olympia-card img-2">
-                <h3>2020</h3>
-                <p>Mr Olympia 2020 in Orlando, Florida</p>
+            <div class="olympia-card-container">
+                <div class="olympia-card img-1">
+                    <h3>2021</h3>
+                    <p>Mr Olympia 2021 in Orlando, Florida</p>
+                </div>
+                <div class="olympia-card img-2">
+                    <h3>2020</h3>
+                    <p>Mr Olympia 2020 in Orlando, Florida</p>
+                </div>
             </div>
         </section>
         <section id="sponsors-section">
