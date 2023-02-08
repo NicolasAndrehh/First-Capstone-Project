@@ -6,7 +6,7 @@
 
 @media only screen and (min-width: 768px) {
   .desktop-hide {
-    display: none;
+    display: none !important;
   }
 
   .section-layout {
@@ -23,8 +23,12 @@
   }
 
   /* Navbar styling and background of the landpage */
-  #navbar {
+  .navbar {
     position: fixed;
+    width: 100%;
+  }
+
+  .navbar .menu-bar {
     width: 100%;
     display: flex;
     align-items: center;
@@ -35,10 +39,28 @@
     gap: 2rem;
   }
 
-  @media only screen and (max-width: 890px) {
-    #navbar {
+  .navbar .social-media-bar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--dark-color);
+    width: 100%;
+    padding: 0.5rem 4rem;
+    gap: 1rem;
+  }
+
+  @media only screen and (max-width: 855px) {
+    .navbar .menu-bar {
       padding: 0 1rem;
     }
+
+    .navbar .social-media-bar {
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  .social-media-bar a {
+    color: #fff;
+    text-decoration: none;
   }
 
   .category-card img {
@@ -51,25 +73,25 @@
     height: 10rem;
   }
 
-  #navbar img {
+  .navbar img {
     width: 10rem;
   }
 
-  #navbar ul {
+  .navbar ul {
     display: flex;
     gap: 2rem;
   }
 
-  #navbar a {
+  .navbar .menu-bar a {
     text-decoration: none;
     color: var(--dark-color);
   }
 
-  #navbar a:hover {
+  .navbar a:hover {
     color: var(--orange-color);
   }
 
-  #navbar .tickets-link {
+  .navbar .tickets-link {
     color: var(--orange-color);
     text-transform: capitalize;
     border: 5px solid var(--orange-color);
@@ -77,26 +99,23 @@
     transition: all 0.3s ease-in-out;
   }
 
-  #navbar .tickets-link:hover {
+  .navbar .tickets-link:hover {
     color: #fff;
     background-color: var(--orange-color);
   }
 
-  .mobile-background {
-    background-image: url(../images/landpage-Background-Mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #ece9e9;
-    background-blend-mode: screen;
-  }
-
-  .mobile-background-about {
+  #landpage-about {
     background-color: #ece9e9;
   }
 
   /* Landpage styling */
   #landpage {
     align-items: flex-start;
+    background-image: url(../images/landpage-Background-Mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ece9e9;
+    background-blend-mode: screen;
   }
 
   #landpage,
@@ -252,7 +271,7 @@
 
   /* Sponsors section styling */
   #sponsors-section {
-    background-color: #36383d;
+    background-color: var(--dark-color);
     color: #fff;
   }
 
@@ -357,5 +376,10 @@
       width: 18rem;
       height: 10rem;
     }
+  }
+
+  .footer-about {
+    background-color: #202020;
+    color: #fff;
   }
 }

@@ -44,24 +44,17 @@
     padding: 1rem 1.25rem;
   }
 
-  .mobile-background {
-    background-image: url(../images/landpage-Background-Mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #ece9e9;
-    background-blend-mode: screen;
-  }
-
-  .mobile-background-about {
-    background-color: #ece9e9;
-  }
-
   /* Landpage and about page landpage styling */
   #landpage {
     display: flex;
     flex-direction: column;
     padding: 6rem 1rem 4rem 1rem;
     gap: 1rem;
+    background-image: url(../images/landpage-Background-Mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ece9e9;
+    background-blend-mode: screen;
   }
 
   #landpage-about {
@@ -71,6 +64,7 @@
     padding: 6rem 1rem 4rem 1rem;
     gap: 0.5rem;
     text-align: center;
+    background-color: #ece9e9;
   }
 
   #landpage h1,
@@ -373,7 +367,7 @@
   }
 
   /* Navbar mobile menu */
-  #navbar {
+  .navbar {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -395,20 +389,20 @@
     padding: 1rem 0 1rem 1.4rem;
   }
 
-  #navbar .menu-links {
+  .navbar .menu-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100vw;
   }
 
-  #navbar .menu-links li {
+  .navbar .menu-links li {
     display: flex;
     width: 100vw;
     text-align: center;
   }
 
-  #navbar .menu-links li a {
+  .navbar .menu-links li a {
     width: 100vw;
     padding: 1rem;
     color: #fff;
@@ -417,7 +411,7 @@
     transition: all 0.3s ease-in-out;
   }
 
-  #navbar .menu-links li a:hover {
+  .navbar .menu-links li a:hover {
     background-color: #ec5242;
   }
 

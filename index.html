@@ -13,29 +13,39 @@
     <title>First Capstone Project</title>
 </head>
 <body>
-    <div class="wrap">
-        <div class="mobile-background">
-            <a href="#" id="hamburguer-button" class="desktop-hide"><i class="fa-sharp fa-solid fa-bars"></i></a>
-            <nav id="navbar">
-                <a href="#" id="close-menu" class="desktop-hide"><i class="fa-solid fa-xmark"></i></a>
-                <a href="index.html"><img src="images/mrOlympiaLogo.png" alt="" class="mobile-hide"></a>
-                <ul class="menu-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#categories-section">Categories</a></li>
-                    <li><a href="#athletes-section">Athletes</a></li>
-                    <li><a href="#sponsors-section">Sponsors</a></li>
-                    <li><a href="about.html" class="desktop-hide">Learn more</a></li>
-                </ul>
-                <a href="about.html" class="mobile-hide tickets-link">Learn more</a>
-            </nav>
-            <main id="landpage" class="section-layout">
-                <span class="color-orange">"Hello! Welcome to the Olympia"</span>
-                <h1 class="color-orange">Mr Olympia 2022</h1>
-                <p class="description-box">Mr. Olympia is the top bodybuilding competition, determining the world's best professional bodybuilder. It has been held annually since 1965 and features top competitors vying for the title of the best of the world and prize money.</p>
-                <h2>2022.12.15(THU) ~ 18(SUN)</h2>
-                <p>@ Planet Hollywood Resort and Casino - Las Vegas</p>
-            </main>
+    <!-- Navbar -->
+    <a href="#" id="hamburguer-button" class="desktop-hide"><i class="fa-sharp fa-solid fa-bars"></i></a>
+    <nav id="navbar" class="navbar">
+        <div class="social-media-bar mobile-hide">
+            <a href="https://www.facebook.com/mrolympiallc/?locale=es_LA"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/MrOlympiaLLC"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#">English</a>
+            <a href="https://github.com/NicolasAndrehh">My Page</a>
+            <a href="#">Logout</a>
         </div>
+        <div class="menu-bar">
+            <a href="#" id="close-menu" class="desktop-hide"><i class="fa-solid fa-xmark"></i></a>
+            <a href="index.html"><img src="images/mrOlympiaLogo.png" alt="" class="mobile-hide"></a>
+            <ul class="menu-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#categories-section">Categories</a></li>
+                <li><a href="#athletes-section">Athletes</a></li>
+                <li><a href="#sponsors-section">Sponsors</a></li>
+                <li><a href="about.html" class="desktop-hide">Learn more</a></li>
+            </ul>
+            <a href="about.html" class="mobile-hide tickets-link">Learn more</a>
+        </div>
+    </nav>
+    <!-- Main content -->
+    <main class="wrap">
+        <section id="landpage" class="section-layout">
+            <span class="color-orange">"Hello! Welcome to the Olympia"</span>
+            <h1 class="color-orange">Mr Olympia 2022</h1>
+            <p class="description-box">Mr. Olympia is the top bodybuilding competition, determining the world's best professional bodybuilder. It has been held annually since 1965 and features top competitors vying for the title of the best of the world and prize money.</p>
+            <h2>2022.12.15(THU) ~ 18(SUN)</h2>
+            <p>@ Planet Hollywood Resort and Casino - Las Vegas</p>
+        </section>
+
         <section id="categories-section" class="section-layout">
             <h2>Categories</h2>
             <hr>
@@ -69,6 +79,7 @@
             
             <a href="about.html" class="button">Learn more</a>
         </section>
+
         <section id="athletes-section" class="section-layout">
             <h2>Our Athletes</h2>
             <hr>
@@ -78,6 +89,7 @@
 
             <a href="#" id="show-more-button" class="button">More <i class="fa-solid fa-angle-down"></i></a>
         </section>
+
         <section id="sponsors-section" class="section-layout">
             <h2>Sponsors</h2>
             <hr>
@@ -90,11 +102,12 @@
                 <li><img src="images/cutler-nutrition-logo.png" alt="" class="brand"></li>
             </ul>
         </section>
-        <footer id="footer">
-            <img src="images/mrOlympiaLogo.png" alt="Mr Olympia logo">
-            <small>2022 Olympia Productions, LLC All Rights Reserved</small>
-        </footer>
-    </div>
+    </main>
+    <!-- footer -->
+    <footer id="footer">
+        <img src="images/mrOlympiaLogo.png" alt="Mr Olympia logo">
+        <small>2022 Olympia Productions, LLC All Rights Reserved</small>
+    </footer>
     <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/ef689762e3.js" crossorigin="anonymous"></script>
 </body>

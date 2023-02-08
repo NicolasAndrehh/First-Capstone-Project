@@ -13,34 +13,45 @@
         <title>About Mr Olympia</title>
     </head>
 <body>
-    <div class="wrap">
-        <div class="mobile-background-about">
-            <a href="#" id="hamburguer-button" class="desktop-hide"><i class="fa-sharp fa-solid fa-bars"></i></a>
-            <nav id="navbar">
-                <a href="#" id="close-menu" class="desktop-hide"><i class="fa-solid fa-xmark"></i></a>
-                <a href="index.html"><img src="images/mrOlympiaLogo.png" alt="Mr Olympia Logo" class="mobile-hide"></a>
-                <ul class="menu-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#logo-section">Logo</a></li>
-                    <li><a href="#past-section">Past competitions</a></li>
-                    <li><a href="#sponsors-section">Sponsors</a></li>
-                </ul>   
-                <a href="about.html" class="mobile-hide tickets-link">Learn more</a>
-            </nav>
-            <main id="landpage-about" class="section-layout">
-                <span class="color-orange">"Hello! Welcome to the Olympia"</span>
-                <h1 class="color-orange">Mr Olympia 2022</h1>
-                <p class="description-box">Mr. Olympia is the title awarded to the winner of the professional men's bodybuilding contest at Joe Weider's Olympia Fitness & Performance Weekend—an international bodybuilding competition that is held annually and is sanctioned by the IFBB Professional League.</p>
-                <p>Please contact us per Email for any questions about Mr Olympia!</p>
-                <p><u><strong>contact@mrolympia.com</strong></u></p>
-            </main>
+    <!-- Navbar -->
+    <a href="#" id="hamburguer-button" class="desktop-hide"><i class="fa-sharp fa-solid fa-bars"></i></a>
+    <nav id="navbar" class="navbar">
+        <div class="social-media-bar mobile-hide">
+            <a href="https://www.facebook.com/mrolympiallc/?locale=es_LA"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/MrOlympiaLLC"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#">English</a>
+            <a href="https://github.com/NicolasAndrehh">My Page</a>
+            <a href="#">Logout</a>
         </div>
+        <div class="menu-bar">
+            <a href="#" id="close-menu" class="desktop-hide"><i class="fa-solid fa-xmark"></i></a>
+            <a href="index.html"><img src="images/mrOlympiaLogo.png" alt="Mr Olympia Logo" class="mobile-hide"></a>
+            <ul class="menu-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#logo-section">Logo</a></li>
+                <li><a href="#past-section">Past competitions</a></li>
+                <li><a href="#sponsors-section" class="desktop-hide">Sponsors</a></li>
+            </ul>   
+            <a href="about.html" class="mobile-hide tickets-link">Learn more</a>
+        </div>
+    </nav>
+    <!-- Main content -->
+    <main class="wrap">
+        <section id="landpage-about" class="section-layout">
+            <span class="color-orange">"Hello! Welcome to the Olympia"</span>
+            <h1 class="color-orange">Mr Olympia 2022</h1>
+            <p class="description-box">Mr. Olympia is the title awarded to the winner of the professional men's bodybuilding contest at Joe Weider's Olympia Fitness & Performance Weekend—an international bodybuilding competition that is held annually and is sanctioned by the IFBB Professional League.</p>
+            <p>Please contact us per Email for any questions about Mr Olympia!</p>
+            <p><u><strong>contact@mrolympia.com</strong></u></p>
+        </section>
+
         <section id="logo-section" class="section-layout">
             <h2>Mr Olympia Logo</h2>
             <hr>
             <p>The logo of Mr Olympia it's the following one</p>
             <img src="images/mrOlympiaLogo.png" alt="Mr Olympia logo">
         </section>
+
         <section id="past-section" class="section-layout">
             <h2>See past Mr Olympia competitions</h2>
             <hr>
@@ -56,7 +67,8 @@
                 </div>
             </div>
         </section>
-        <section id="sponsors-section" class="section-layout">
+
+        <section id="sponsors-section" class="section-layout desktop-hide">
             <h2>Sponsors</h2>
             <hr>
             <ul class="brands">
@@ -68,11 +80,12 @@
                 <li><img src="images/cutler-nutrition-logo.png" alt="" class="brand"></li>
             </ul>
         </section>
-        <footer id="footer">
-            <img src="images/mrOlympiaLogo.png" alt="Mr Olympia logo">
-            <small>2022 Olympia Productions, LLC All Rights Reserved</small>
-        </footer>
-    </div>
+    </main>
+    <!-- footer -->
+    <footer id="footer" class="footer-about">
+        <img src="images/mrOlympiaLogo.png" alt="Mr Olympia logo">
+        <small>2022 Olympia Productions, LLC All Rights Reserved</small>
+    </footer>
     <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/ef689762e3.js" crossorigin="anonymous"></script>
 </body>
