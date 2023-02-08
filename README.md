@@ -18,6 +18,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Loom Walkthrough](#loom-walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -82,6 +83,12 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 [First Capstone Project - Live Demo](https://nicolasandrehh.github.io/First-Capstone-Project/)
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
+## Loom Walkthrough <a name="loom-walkthrough"></a>
+
+https://www.loom.com/share/274f7b72950e41d2aafccd08a9a34a9b
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
