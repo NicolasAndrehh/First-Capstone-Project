@@ -30,13 +30,14 @@
 
   .navbar .menu-bar {
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
     align-items: center;
     justify-content: space-between;
+    justify-items: end;
     padding: 0 4rem;
     background-color: #fff;
     border-bottom: 1px solid var(--gray-color);
-    gap: 2rem;
   }
 
   .navbar .social-media-bar {
@@ -48,9 +49,17 @@
     gap: 1rem;
   }
 
-  @media only screen and (max-width: 855px) {
+  .navbar img {
+    width: 10rem;
+  }
+
+  @media only screen and (max-width: 880px) {
     .navbar .menu-bar {
       padding: 0 1rem;
+    }
+
+    .navbar img {
+      width: 8.5rem;
     }
 
     .navbar .social-media-bar {
@@ -71,10 +80,6 @@
   .athlete-card img {
     width: 10rem;
     height: 10rem;
-  }
-
-  .navbar img {
-    width: 10rem;
   }
 
   .navbar ul {
