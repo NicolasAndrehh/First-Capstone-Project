@@ -88,7 +88,7 @@
 
 ## Loom Walkthrough <a name="loom-walkthrough"></a>
 
-https://www.loom.com/share/274f7b72950e41d2aafccd08a9a34a9b
+[](https://www.loom.com/share/274f7b72950e41d2aafccd08a9a34a9b)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
