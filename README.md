@@ -56,7 +56,7 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li>No server was required for this project</li>
+    <li>GitHub Pages</li>
   </ul>
 </details>
 
@@ -185,7 +185,7 @@ If you like this project you can share it to other people!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse community.
+I would like to thank [Cindy Shin](https://www.behance.net/adagio07) because this project is based on her original design idea.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
