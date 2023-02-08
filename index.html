@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="shortcut icon" href="images/classic-logo.png" type="image/x-icon">
+    <title>First Capstone Project</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <a href="#" id="hamburguer-button" class="desktop-hide"><i class="fa-sharp fa-solid fa-bars"></i></a>
+    <nav id="navbar" class="navbar">
+        <div class="social-media-bar mobile-hide">
+            <a href="https://www.facebook.com/mrolympiallc/?locale=es_LA"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/MrOlympiaLLC"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#">English</a>
+            <a href="https://github.com/NicolasAndrehh">My Page</a>
+            <a href="#">Logout</a>
+        </div>
+        <div class="menu-bar">
+            <a href="#" id="close-menu" class="desktop-hide"><i class="fa-solid fa-xmark"></i></a>
+            <a href="index.html"><img src="images/mrOlympiaLogo.png" alt="" class="mobile-hide"></a>
+            <ul class="menu-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#categories-section">Categories</a></li>
+                <li><a href="#athletes-section">Athletes</a></li>
+                <li><a href="#sponsors-section">Sponsors</a></li>
+                <li><a href="about.html" class="desktop-hide">Learn more</a></li>
+            </ul>
+            <a href="about.html" class="mobile-hide tickets-link">Learn more</a>
+        </div>
+    </nav>
+    <!-- Main content -->
+    <main class="wrap">
+        <section id="landpage" class="section-layout">
+            <span class="color-orange">"Hello! Welcome to the Olympia"</span>
+            <h1 class="color-orange">Mr Olympia 2022</h1>
+            <p class="description-box">Mr. Olympia is the top bodybuilding competition, determining the world's best professional bodybuilder. It has been held annually since 1965 and features top competitors vying for the title of the best of the world and prize money.</p>
+            <h2>2022.12.15(THU) ~ 18(SUN)</h2>
+            <p>@ Planet Hollywood Resort and Casino - Las Vegas</p>
+        </section>
+
+        <section id="categories-section" class="section-layout">
+            <h2>Categories</h2>
+            <hr>
+            <div class="categories-container">
+                <div class="category-card">
+                    <img src="images/open-logo.png" alt="Open category image">
+                    <h3>Mr. Olympia Open</h3>
+                    <p>The main event and the highest level of competition for male bodybuilders without weigh limit</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/212-logo.png" alt="212 category image">
+                    <h3>212 Olympia</h3>
+                    <p>A division for male bodybuilders weighing 212 pounds or less</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/classic-logo.png" alt="Classic category image">
+                    <h3>Classic Physique</h3>
+                    <p>A division for bodybuilders who focus on the aesthetic, classic look of bodybuilding</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/wellness-logo.png" alt="Wellness category image">
+                    <h3>Wellness</h3>
+                    <p>A division for womens that focus on the lower body size and proportional to the upper body</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/mens-logo.png" alt="Men's category image">
+                    <h3>Men's physique</h3>
+                    <p>Designed to showcase a more athletic, toned physique that emphasizes symmetry, muscle definition, and stage presence</p>
+                </div>
+            </div>
+            
+            <a href="about.html" class="button">Learn more</a>
+        </section>
+
+        <section id="athletes-section" class="section-layout">
+            <h2>Our Athletes</h2>
+            <hr>
+            <div class="athletes-container show-first-four">
+                
+            </div>
+
+            <a href="#" id="show-more-button" class="button">More <i class="fa-solid fa-angle-down"></i></a>
+        </section>
+
+        <section id="sponsors-section" class="section-layout">
+            <h2>Sponsors</h2>
+            <hr>
+            <ul class="brands">
+                <li><img src="images/muscletech-logo.png" alt="" class="brand"></li>
+                <li><img src="images/evogen-logo.png" alt="" class="brand"></li>
+                <li><img src="images/redcon-logo.png" alt="" class="brand"></li>
+                <li><img src="images/trifecta-logo.png" alt="" class="brand"></li>
+                <li><img src="images/wings-of-strength-logo.png" alt="" class="brand"></li>
+                <li><img src="images/cutler-nutrition-logo.png" alt="" class="brand"></li>
+            </ul>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer id="footer">
+        <img src="images/mrOlympiaLogo.png" alt="Mr Olympia logo">
+        <small>2022 Olympia Productions, LLC All Rights Reserved</small>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/ef689762e3.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,390 @@
+:root {
+  --orange-color: #ec5242;
+  --dark-color: #272a31;
+  --gray-color: #d3d3d3;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-hide {
+    display: none !important;
+  }
+
+  .section-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 4rem 4rem 4rem;
+    gap: 1rem;
+  }
+
+  hr {
+    width: 3rem;
+    border: 1px solid var(--orange-color);
+  }
+
+  /* Navbar styling and background of the landpage */
+  .navbar {
+    position: fixed;
+    width: 100%;
+  }
+
+  .navbar .menu-bar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: end;
+    padding: 0 4rem;
+    background-color: #fff;
+    border-bottom: 1px solid var(--gray-color);
+  }
+
+  .navbar .social-media-bar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--dark-color);
+    width: 100%;
+    padding: 0.5rem 4rem;
+    gap: 1rem;
+  }
+
+  .navbar img {
+    width: 10rem;
+  }
+
+  @media only screen and (max-width: 880px) {
+    .navbar .menu-bar {
+      padding: 0 1rem;
+    }
+
+    .navbar img {
+      width: 8.5rem;
+    }
+
+    .navbar .social-media-bar {
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  .social-media-bar a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .category-card img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .athlete-card img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .navbar ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .navbar .menu-bar a {
+    text-decoration: none;
+    color: var(--dark-color);
+  }
+
+  .navbar a:hover {
+    color: var(--orange-color);
+  }
+
+  .navbar .tickets-link {
+    color: var(--orange-color);
+    text-transform: capitalize;
+    border: 5px solid var(--orange-color);
+    padding: 0.75rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar .tickets-link:hover {
+    color: #fff;
+    background-color: var(--orange-color);
+  }
+
+  #landpage-about {
+    background-color: #ece9e9;
+  }
+
+  /* Landpage styling */
+  #landpage {
+    align-items: flex-start;
+    background-image: url(../images/landpage-Background-Mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ece9e9;
+    background-blend-mode: screen;
+  }
+
+  #landpage,
+  #landpage-about {
+    padding: 12rem 4rem 6rem 4rem;
+  }
+
+  #landpage span {
+    font-size: 2rem;
+  }
+
+  #landpage h1,
+  #landpage-about h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  #landpage .description-box {
+    background-color: #ece9e9;
+    width: 35rem;
+    padding: 1rem;
+    border: 2px solid #fff;
+    line-height: 1.75rem;
+    font-size: 1rem;
+  }
+
+  #landpage h2 {
+    font-size: 2rem;
+    color: var(--dark-color);
+    font-weight: 800;
+  }
+
+  .category-card p {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.25rem;
+    letter-spacing: 0.25px;
+  }
+
+  .athlete-info p {
+    font-size: 0.9rem;
+  }
+
+  #landpage p {
+    font-size: 1.25rem;
+  }
+
+  /* Categories section styling */
+  #categories-section .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem;
+    margin: 2rem 0;
+  }
+
+  #categories-section .category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12rem;
+    padding: 0.75rem;
+    background-color: rgba(120, 121, 133, 0.199);
+    gap: 0.75rem;
+  }
+
+  .category-card h3 {
+    color: var(--orange-color);
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  /* Button styling */
+  .button {
+    background-color: var(--orange-color);
+    color: #fff;
+    border: 2px solid var(--orange-color);
+    border-radius: 0.25rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    width: 30%;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .button:hover {
+    background-color: #fff;
+    color: var(--orange-color);
+  }
+
+  /* Athletes section styling */
+  #athletes-section .athletes-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 0;
+    gap: 3rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    #athletes-section .athletes-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #athletes-section .athlete-card {
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .athlete-card .athlete-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .athlete-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .athlete-info .athlete-category {
+    color: var(--orange-color);
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  #athletes-section .button {
+    background-color: #fff;
+    color: var(--dark-color);
+    border: 2px solid var(--gray-color);
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+  #athletes-section .button i {
+    color: var(--orange-color);
+  }
+
+  #athletes-section .button:hover {
+    background-color: var(--dark-color);
+    color: var(--orange-color);
+    border: 2px solid var(--orange-color);
+  }
+
+  #athletes-section .show-first-four > :nth-child(-n+4) {
+    display: flex !important;
+  }
+
+  .show-all {
+    display: flex;
+  }
+
+  /* Sponsors section styling */
+  #sponsors-section {
+    background-color: var(--dark-color);
+    color: #fff;
+  }
+
+  #sponsors-section .brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    #sponsors-section .brands {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4rem;
+    }
+  }
+
+  .brands .brand {
+    width: 10rem;
+    mix-blend-mode: luminosity;
+  }
+
+  /* Footer styling */
+  #footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+
+  #footer img {
+    width: 10rem;
+  }
+
+  /* About page css */
+  #landpage-about span {
+    display: none;
+  }
+
+  #landpage-about .description-box {
+    background-color: #fff;
+    width: 70%;
+    padding: 2rem 3rem;
+    border: 2px solid #c2c2c2;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.15px;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  /* Logo section styling */
+  #logo-section {
+    border-bottom: 2px solid var(--gray-color);
+  }
+
+  #logo-section img {
+    width: 25rem;
+    border: 2px solid var(--gray-color);
+    margin-top: 3rem;
+  }
+
+  /* Past section styling */
+  #past-section .olympia-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  #past-section .olympia-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 24rem;
+    height: 13.5rem;
+    color: #fff;
+    background-color: var(--orange-color);
+    background-blend-mode: multiply;
+    gap: 1rem;
+  }
+
+  #past-section .img-1 {
+    background-image: url(../images/olympia-2021.jpg);
+  }
+
+  #past-section .img-2 {
+    background-image: url(../images/olympia-2020.jpg);
+  }
+
+  .olympia-card h3 {
+    font-size: 2.5rem;
+  }
+
+  @media only screen and (max-width: 450px) {
+    #past-section .olympia-card {
+      width: 18rem;
+      height: 10rem;
+    }
+  }
+
+  .footer-about {
+    background-color: #202020;
+    color: #fff;
+  }
+}
